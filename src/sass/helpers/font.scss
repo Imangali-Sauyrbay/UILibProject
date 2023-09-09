@@ -1,0 +1,71 @@
+.fsz {
+  &-10 {
+    font-size: 10px;
+  }
+
+  &-12 {
+    font-size: 12px;
+  }
+
+  &-14 {
+    font-size: 14px;
+  }
+
+  &-16 {
+    font-size: 16px;
+  }
+
+  &-18 {
+    font-size: 18px;
+  }
+
+  &-20 {
+    font-size: 20px;
+  }
+
+  &-22 {
+    font-size: 22px;
+  }
+
+  &-24 {
+    font-size: 24px;
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.thin {
+  font-weight: 300;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-color {
+  &-primary {
+    color: $primary;
+  }
+
+  &-success {
+    color: $success;
+  }
+
+  &-warning {
+    color: $warning;
+  }
+
+  &-danger {
+    color: $danger;
+  }
+
+  &-dark {
+    color: $dark;
+  }
+
+  &-light {
+    color: $light;
+  }
+}
